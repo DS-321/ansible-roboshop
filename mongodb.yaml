@@ -10,4 +10,4 @@
   - name: install mongodb server
     ansible.builtin.dnf:
       name: mongodb-org
-      state: pressent
+      state: present
