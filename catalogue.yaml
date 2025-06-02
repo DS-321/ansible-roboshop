@@ -37,7 +37,7 @@
       remote_src: yes
 
   - name: install the dependencies 
-    community:general:npm:
+    community.general.npm:
       path: /app
 
   - name: copy catalogue service to the system directory
