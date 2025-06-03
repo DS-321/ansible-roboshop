@@ -7,6 +7,7 @@ Environment=MONGO=true
 Environment=REDIS_URL='redis://redis.dcloudlab.site:6379'
 Environment=MONGO_URL="mongodb://mongodb.dcloudlab.site:27017/users"
 // highlight-end
+Environment=PORT=8081
 ExecStart=/bin/node /app/server.js
 SyslogIdentifier=user
 

@@ -7,6 +7,7 @@ Environment=REDIS_HOST=redis.dcloudlab.site
 Environment=CATALOGUE_HOST=catalogue.dcloudlab.site
 Environment=CATALOGUE_PORT=8080
 // highlight-end
+Environment=PORT=8082
 ExecStart=/bin/node /app/server.js
 SyslogIdentifier=cart
 
