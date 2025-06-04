@@ -1,6 +1,6 @@
 - name: configure mysql component
-  hosts: local
-  connection: local
+  hosts: mysql
+  #connection: local
   become: yes
   tasks:
   - name: installing mysql package

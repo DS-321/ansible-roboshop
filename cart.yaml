@@ -1,6 +1,6 @@
 - name: configure cart component
-  hosts: local
-  connection: local
+  hosts: cart
+  #connection: local
   become: yes
   tasks:
   - name: disable default nodejs

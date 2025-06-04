@@ -1,7 +1,7 @@
 - name: setup rabbitmq component
   become: yes
-  hosts: local
-  connection: local
+  hosts: rabbitmq
+  #connection: local
   tasks:
   - name: copy rabbitmq repo
     ansible.builtin.copy:

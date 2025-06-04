@@ -1,6 +1,6 @@
 - name: configure user component
-  hosts: local
-  connection: local
+  hosts: user
+  #connection: local
   become: yes
   tasks:
   - name: disable default nodejs
